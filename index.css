@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header{ display: grid;
+    
+    grid-template-columns: 2fr 4fr 4fr;
+    background-color: #ff6347;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10;
+    padding-top: 15px;
+}
+
+nav ul li {
+
+    display: inline;
+    margin: 0 39px;
+    font-size: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #ff6347;
+    font-size: xx-large;
+
+}
+
+.menu-item {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    font-size: xx-large;
+    align-items: center;
+}
+
+.menu-item img {
+    width: 400px; 
+    height: 267px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff6347;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ff6347;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#all{
+    display: flex;
+    justify-content: space-around;
+}
+#upper {
+    width: 100%;
+    height: 90px;
+    padding-bottom: 150px;
+    animation: changeimg 50s infinite;
+    margin-bottom: 23px;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+@keyframes changeimg {
+    0%{
+        background-image: url("https://b.zmtcdn.com/data/o2_assets/e067a1cf0d3fe27b366402b98b994e9f1716296909.png");
+        background-size: cover;
+        object-fit: cover;
+        object-position: bottom;
+    }
+     25%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9edAqZ1ua_ZECF02YJuN4QnCWH6P23bK1nw&s");
+        background-size: cover;
+        object-fit: cover;
+        object-position: bottom;
+     }
+      50%{
+            background-image:url("https://media.istockphoto.com/id/1448368328/photo/food-photos-various-entrees-appetizers-deserts-etc.jpg?s=1024x1024&w=is&k=20&c=XZQhK7C9ZacjXhSy1NfnFwpC9wkASBZUNME9xyJhMXU=");
+            background-size: cover;
+            object-fit: cover;
+            object-position: bottom;
+        }
+    
+    75%{
+        background-image: url("https://www.zomato.com/partner-with-us/static/media/StartJourney.7cfaaf0a.jpg");
+        background-size: cover;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    100%{
+        background-image: url("https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp");
+        background-size: cover;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    
+}
+#macd img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow:0px 2px 5px;
+    padding-bottom: 10px;
+}
+#disf{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+
+}
+h1{
+    text-align: center;
+
+}
+#heading{
+    color: #ff6347;
+}
